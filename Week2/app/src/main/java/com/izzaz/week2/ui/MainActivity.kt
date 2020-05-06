@@ -27,12 +27,10 @@ class MainActivity : AppCompatActivity() {
 
         model = ViewModelProvider(this).get(FoodViewModel::class.java)
         recyclerView1.layoutManager = LinearLayoutManager(this)
-//        recyclerView1.layoutManager = GridLayoutManager(this,3, VERTICAL,false)
 
         model.getFoodList().observe(this,Observer{ food->
             recyclerView1.adapter = FoodItemAdapter(food)
         })
-
 
         btnNext.setOnClickListener{
             val name: String = etName.text.toString()

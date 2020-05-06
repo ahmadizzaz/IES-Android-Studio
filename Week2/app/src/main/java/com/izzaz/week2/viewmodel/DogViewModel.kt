@@ -64,10 +64,8 @@ class DogViewModel : ViewModel() {
                 "puggle"
             )
         )
-
         dogList?.postValue(dogListInit)
     }
-
 }
 
 

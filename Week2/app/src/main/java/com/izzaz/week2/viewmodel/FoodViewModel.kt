@@ -27,15 +27,6 @@ class FoodViewModel : ViewModel() {
         foodListInit.add(FoodItem("Nasi Goreng"))
         foodList?.postValue(foodListInit)
     }
-//    val foodList: MutableList<FoodItem> = mutableListOf(
-//        FoodItem("Nasi Goreng"),
-//        FoodItem("Nasi Lemak"),
-//        FoodItem("Roti Canai"),
-//        FoodItem("Roti Canai"),
-//        FoodItem("Roti Canai"),
-//        FoodItem("Roti Canai"),
-//        FoodItem("Roti Canai")
-//    )
 }
 
 

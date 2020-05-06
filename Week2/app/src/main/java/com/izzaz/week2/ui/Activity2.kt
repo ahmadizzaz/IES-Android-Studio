@@ -3,9 +3,6 @@ package com.izzaz.week2.ui
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.GridLayout.VERTICAL
-import android.widget.Toast
-import android.widget.Toast.LENGTH_LONG
-
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -35,9 +32,6 @@ class Activity2 : AppCompatActivity() {
 
         model.getDogList().observe(this, Observer { dog->
             recyclerView2.adapter = DogModelAdapter(dog)
-
         })
-
-
     }
 }

@@ -23,7 +23,6 @@ class DogModelAdapter(private val dog:List<DogModel>) : RecyclerView.Adapter<Dog
     override fun onBindViewHolder(holder: DogModelViewHolder, position: Int) {
         val currentItem = dog[position]
         holder.bindItems(dog[position])
-
     }
 
     override fun getItemCount(): Int {
@@ -48,6 +47,5 @@ class DogModelAdapter(private val dog:List<DogModel>) : RecyclerView.Adapter<Dog
                  .load(model.url)
                  .into(dogImage)
          }
-
     }
 }
