@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Week3</string>
-    <string name="title_tv">Week 3 Photos</string>
-    <string name="photo_iv">Photo here</string>
-    <string name="photoWidth_tv">"Width : "</string>
-    <string name="photoHeight_tv">Height :</string>
-    <string name="authorTextView">Author</string>
-    <string name="author_tv_title">Authors</string>
-</resources>
