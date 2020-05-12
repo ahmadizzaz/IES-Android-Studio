@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Week4</string>
+    <string name="title_tv">Welcome to \nAndroid Dev\'s Pokedex</string>
+    <string name="pokemonName">Name Here</string>
+    <string name="photoDesc">Photo Here</string>
+    <string name="pokemonNameDetail">Name</string>
+    <string name="nationalID_text">National ID</string>
+    <string name="species_texxt">Species</string>
+    <string name="type_text">Type</string>
+    <string name="height_tv">Height</string>
+    <string name="weight_tv">Weight</string>
+    <string name="nationalID_text_body">TextView</string>
+    <string name="speciest_text_body">TextView</string>
+    <string name="height_text_body">TextView</string>
+    <string name="weight_text_body">TextView</string>
+</resources>
